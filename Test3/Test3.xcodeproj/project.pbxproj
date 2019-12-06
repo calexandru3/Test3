@@ -17,7 +17,6 @@
 		58A7DCED239A55BC0035CF3F /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7DCEC239A55BC0035CF3F /* PageModel.swift */; };
 		58A7DCEF239A59BE0035CF3F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7DCEE239A59BE0035CF3F /* DataModel.swift */; };
 		58A7DCF1239A5D160035CF3F /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7DCF0239A5D160035CF3F /* CustomPageViewController.swift */; };
-		58A7DCF3239A647F0035CF3F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7DCF2239A647F0035CF3F /* API.swift */; };
 		753FFE3909228EC3D79934CA /* Pods_Test3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCFE7D01B65E3634276C359 /* Pods_Test3.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 		58A7DCEC239A55BC0035CF3F /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
 		58A7DCEE239A59BE0035CF3F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		58A7DCF0239A5D160035CF3F /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
-		58A7DCF2239A647F0035CF3F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		5DCFE7D01B65E3634276C359 /* Pods_Test3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE640CB40A8A20A090715B7 /* Pods-Test3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test3/Pods-Test3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +86,6 @@
 				58A7DCF0239A5D160035CF3F /* CustomPageViewController.swift */,
 				58A7DCEC239A55BC0035CF3F /* PageModel.swift */,
 				58A7DCEE239A59BE0035CF3F /* DataModel.swift */,
-				58A7DCF2239A647F0035CF3F /* API.swift */,
 				588DEFF1239935B600B00AD6 /* Main.storyboard */,
 				588DEFF4239935B700B00AD6 /* Assets.xcassets */,
 				588DEFF6239935B700B00AD6 /* LaunchScreen.storyboard */,
@@ -232,7 +229,6 @@
 				58A7DCE9239952200035CF3F /* CellWithField.swift in Sources */,
 				58A7DCED239A55BC0035CF3F /* PageModel.swift in Sources */,
 				58A7DCF1239A5D160035CF3F /* CustomPageViewController.swift in Sources */,
-				58A7DCF3239A647F0035CF3F /* API.swift in Sources */,
 				588DEFEE239935B600B00AD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
