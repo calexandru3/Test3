@@ -7,6 +7,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Custom Page View Controller-->
+        <scene sceneID="NwT-KP-am1">
+            <objects>
+                <pageViewController storyboardIdentifier="customPageView" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Cd7-sd-HFm" customClass="CustomPageViewController" customModule="Test3" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="OOF-lR-tAe"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rPq-ka-ugG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2003" y="138"/>
+        </scene>
         <!--Cities-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -19,6 +29,14 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="n0s-LG-k0x">
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fetch"/>
+                                <connections>
+                                    <action selector="fetch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q7g-zh-5mF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
