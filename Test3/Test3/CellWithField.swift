@@ -41,6 +41,7 @@ class CellWithField: UITableViewCell {
         return field
     }()
 
+
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.selectionStyle = .none
@@ -67,9 +68,11 @@ class CellWithField: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 }
+extension CellWithField:UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        deleteDelegate?.addTextToDataSource(indexPath: self.indexPath!, text: textField.text!)
+        textField.endEditing(true)
 
-extension CellWithField: UITextFieldDelegate {
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        deleteDelegate?.addTextToDataSource(indexPath: self.indexPath!, text: field.text!)
+        return true
     }
 }
